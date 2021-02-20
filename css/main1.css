@@ -1,0 +1,32 @@
+body {
+    background-color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .glow {
+    font-size: 80px;
+    color: #FFF;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  .header{
+      padding-bottom: 5%;
+      padding-top: 1%;
+      margin-bottom: 40px;
+  }
+  .back{
+      color: #FFFFFF;
+      font-size: large;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #90d5c5, 0 0 20px #f7faf9, 0 0 30px #1eb08e, 0 0 40px #1eb08e, 0 0 50px #1eb08e, 0 0 60px #1eb08e, 0 0 70px #1eb08e;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #48ffd5, 0 0 40px #48ffd5, 0 0 50px #48ffd5, 0 0 60px #48ffd5, 0 0 70px #48ffd5, 0 0 80px #48ffd5;
+    }
+  }

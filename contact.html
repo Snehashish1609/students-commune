@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script language="JavaScript" src="js/gen_validatorv31.js" type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body class="contact-section">
+      
+
+<div class="contact-section">
+
+  <h1>Contact Us</h1>
+  <div class="border"></div>
+  <form class="contact-form" method="post" name="myemailform" action="form-to-email.php">
+    <input type="text" class="contact-form-text" placeholder="Your name" name="name" required>
+    <input type="email" class="contact-form-text" placeholder="Your email" name="email" required>
+    <input type="text" class="contact-form-text" placeholder="Your phone" name="phone" required>
+    <textarea class="contact-form-text" placeholder="Your message" name="message" required></textarea>
+    <input type="submit" class="contact-form-btn" name='submit' value="submit">
+  </form>
+  <div></div>
+  </div>
+  <script language="JavaScript">
+    // Code for validating the form
+    var frmvalidator  = new Validator("myemailform");
+    frmvalidator.addValidation("name","req","Please provide your name"); 
+    frmvalidator.addValidation("email","req","Please provide your email"); 
+    frmvalidator.addValidation("email","email","Please enter a valid email address"); 
+    </script>
+
+  </body>
+</html>
