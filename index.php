@@ -73,6 +73,7 @@ else{
 
 <div class="signup">
         Trouble signing in? <a href="https://studentscommune.000webhostapp.com/contact.html">Contact Us</a>
+        <br><a href="https://studentscommune.000webhostapp.com/about.php">: About Us :</a>
       </div>
 </div>
 <script>
